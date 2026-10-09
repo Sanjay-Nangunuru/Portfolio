@@ -90,7 +90,7 @@ function App() {
           <div className="profile-frame">
             <div className="frame-top"><span>FIG. 01 / SANJAY</span><span className="frame-status"><i/> PROFILE</span></div>
             <div className="portrait-placeholder portrait-photo">
-              <img className="profile-photo" src="/assets/profile-photo.png" alt="Professional portrait" />
+              <img className="profile-photo" src={`${import.meta.env.BASE_URL}assets/profile-photo.png`} alt="Portrait of Nangunuru Sanjay" />
             </div>
             <div className="frame-name">Nangunuru Sanjay <ArrowUpRight size={18}/></div>
             <div className="frame-role">Developer · Builder · Curious mind</div>
