@@ -33,11 +33,11 @@
   border-radius: inherit;
 }
 
-.portrait-placeholder.portrait-photo {
+.portrait-photo {
   overflow: hidden;
   background: #e8e9ee;
 }
-.portrait-placeholder .profile-photo {
+.portrait-photo .profile-photo {
   display: block;
   width: 100%;
   height: 100%;
